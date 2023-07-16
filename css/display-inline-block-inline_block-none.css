@@ -1,0 +1,30 @@
+body > * {
+    background-color: aqua;
+}
+
+.to-inline {
+    background-color: red;
+    display: inline;
+}
+
+.to-block {
+    background-color: yellow;
+    display: block;
+}
+
+/* 
+inline-block:
+    inline element kabi faqat kontenti uchun 
+    yetarli bo`lgan kenglikni oladi va yonma-yon joylashadi. 
+
+    bunga qo`shimcha ravishda, block element singari width/height, 
+    margin/padding-top/bottom xossalarini qabul qilishi mumkin.
+*/
+.to-inline-block {
+    display: inline-block;
+    height: 200px;
+}
+
+.to-none {
+    display: none;
+}

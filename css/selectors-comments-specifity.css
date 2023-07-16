@@ -1,0 +1,26 @@
+/* THE MOST IMP0RTANT SELECTOR IS: inline styling */
+
+/* 1st important selector: select by id */
+#id-nomi {
+    color: brown;
+}
+
+/* 2nd important selector: select by class */
+.class-nomi {
+    color: green;
+}
+
+/* 3th important selector: select by attribute */
+[href="https://www.google.com"] {
+    color: rgba(15, 95, 95, 0.709);
+}
+
+/* 4th important selector: select by tag */
+p {
+    color: red
+}
+
+/* 5th important selector: select all */
+* {
+    color: aquamarine;
+}

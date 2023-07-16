@@ -1,0 +1,24 @@
+/* Descendant selector*/
+/* hamma div ni top, uning avlodi bo`lgan har qanday p larga quyidagi stillarni ber*/
+div p {
+    color: blue;
+}
+
+/* Child selector*/
+/* hamma div ni top, uning farzandi bo`lgan har qanday p larga quyidagi stillarni ber*/
+div > p {
+    color: red;
+}
+
+
+/* General sibling selector*/
+/* hamma div ni top, uning farzandi bo`lgan har qanday p larga quyidagi stillarni ber*/
+div ~ p {
+    color: brown;
+}
+ 
+/* Adjacent sibling selector*/
+/* hamma div ni top, undan keyin kelgan p o`zaro qo`shnisiga quyidagi stillarni ber*/
+div + p {
+    color: green;
+}

@@ -1,0 +1,30 @@
+div {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border: 1px solid yellow;
+    margin: 30px;
+    
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+.div2 {
+    max-width: 800px;
+    min-width: 600px;
+}
+
+.div3 {
+    max-height: 400px;
+    min-height: 200px;
+    overflow: auto;
+}
+
+.div4 {
+    min-height: 200px;
+}
+
